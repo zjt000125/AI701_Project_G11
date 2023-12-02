@@ -46,7 +46,7 @@ bash generate.sh
 ```
 
 The display demo video is:
-<video src="./demo_show_video/demo.mp4"></video>
+<video src="AI701_Project_G11/demo_show_video/demo.mp4"></video>
 
 * extract key frames from the ./videos/three_cats.mp4 through ffmpeg
 * display the key frames on the screen(Press any key to continue)
