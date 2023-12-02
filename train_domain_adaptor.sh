@@ -1,0 +1,13 @@
+CUDA_VISIBLE_DEVICES=0 accelerate launch --config_file train_settings.json train_domain_adaptor.py \
+  --pretrained_model_name_or_path="CompVis/stable-diffusion-v1-4" \
+  --train_data_dir='./datasets/Open_Images/' \
+  --placeholder_token="S" \
+  --resolution=256 \
+  --train_batch_size=2 \
+  --gradient_accumulation_steps=8 \
+  --max_train_steps=100000 \
+  --learning_rate=1e-06 --scale_lr \
+  --lr_scheduler="constant" \
+  --lr_warmup_steps=0 \
+  --output_dir="./checkpoints/domain_adaptor" \
+  --save_steps 5000
