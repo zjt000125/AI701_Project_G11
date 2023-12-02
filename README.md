@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Fast and Interactive Text-to-Image Video Object Segmentation, Editing and Derivative Creation
 
 ## Abstract
@@ -45,8 +44,7 @@ bash demo.sh
 bash generate.sh
 ```
 
-The display demo video is:
-<video src="AI701_Project_G11/demo_show_video/demo.mp4"></video>
+The display demo video is in ./demo_show_video/demo.mp4
 
 * extract key frames from the ./videos/three_cats.mp4 through ffmpeg
 * display the key frames on the screen(Press any key to continue)
@@ -71,7 +69,3 @@ bash train_domain_adaptor.sh
 ```shell
 bash train_image_transformer.sh
 ```
-
-=======
-# AI701_Project_G11
->>>>>>> 530002d66dc272d6f545d4fe14a3ea4d66a2f5b7
